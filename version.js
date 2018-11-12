@@ -1,5 +1,5 @@
 module.exports = version();
 
-version() {
+function version() {
   return process.version
 };
